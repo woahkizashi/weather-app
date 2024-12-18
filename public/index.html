@@ -2,21 +2,27 @@
 
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Weather App</title>
-    <link rel="stylesheet" href="styles.css" />
-    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
-  </head>
-  <body>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Knowledge App</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
     <div id="app">
-      <h1>Weather App</h1>
-      <input type="text" id="city" placeholder="Enter city" />
-      <button id="fetchWeather">Get Weather</button>
-      <div id="weatherInfo"></div>
-      <div id="news"></div>
+        <h1>Knowledge App</h1>
+        <input type="text" id="word" placeholder="Enter word">
+        <button id="fetchDefinition">Get Definition</button>
+        <div id="definition"></div>
+
+        <input type="text" id="bookTitle" placeholder="Enter book title">
+        <button id="fetchBooks">Search Books</button>
+        <div id="books"></div>
+
+        <button id="fetchSpaceNews">Get Latest Spaceflight News</button>
+        <div id="spaceNews"></div>
     </div>
     <script src="script.js"></script>
-  </body>
+</body>
 </html>
+
