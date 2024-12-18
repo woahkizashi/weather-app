@@ -32,6 +32,12 @@ input[type='text'] {
   border-radius: 5px;
 }
 
+input[type='text']::placeholder { 
+  color: #a85555; 
+  opacity: 1; 
+  text-align: center;
+}
+
 button {
   background-color: #007bff;
   color: white;
